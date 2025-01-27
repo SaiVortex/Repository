@@ -28,23 +28,27 @@ Follow these steps to install and run the script:
     pkg install git
    
 2. **Clone the Repository**
-`` Clone the backup repository containing the setup script:
+``
+Clone the backup repository containing the setup script:
 git clone https://github.com/saicharan-bhuthkuri/My_files_back_up.git
 
-3. ***Navigate to the Repository Directory***
+4. **Navigate to the Repository Directory**
 Move into the cloned directory:
-`` cd My_files_back_up
+``
+cd My_files_back_up
 
 
-4. **Grant Execution Permissions**
+6. **Grant Execution Permissions**
 Make the setup script executable:
 
-`` chmod +x setup.sh
+``
+chmod +x setup.sh
 
 
 5. **Run the Script**
 Execute the script:
-`` ./setup.sh
+``
+./setup.sh
 
 ---
 
@@ -59,7 +63,8 @@ An active internet connection is required to clone the repositories.
 
 To make the process easier, you can copy and paste the following commands directly into your terminal:
 
-```pkg update && pkg upgrade
+```
+pkg update && pkg upgrade
 pkg install git 
 git clone https://github.com/saicharan-bhuthkuri/My_files_back_up.git
 cd My_files_back_up
