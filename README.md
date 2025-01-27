@@ -17,6 +17,16 @@ This script simplifies the process of cloning and organizing Git repositories. I
    Automatically creates directories for lab, HTML, and React repositories.
 
 ---
+## Notes:
+
+The password is hardcoded as **root**. You can change it in the script if needed.
+
+Ensure you have Git installed and configured on your system.
+
+An active internet connection is required to clone the repositories.
+
+
+---
 
 ## Installation and Execution:
 
