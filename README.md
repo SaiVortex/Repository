@@ -17,6 +17,32 @@ This script simplifies the process of cloning and organizing Git repositories. I
    Automatically creates directories for lab, HTML, and React repositories.
 
 ---
+## Setup Instructions
+1. **Prerequisites: Ensure git and bash are installed.**
+```bash
+pkg install git
+```
+
+2.**Clone the repository:**
+```bash
+git clone https://github.com/saicharan-bhuthkuri/Installation.git
+cd Installation.git
+```
+3.**Grant permission to the file:**
+```bash
+chmod +x setup.sh
+```
+
+4.**Run the program:**
+```bash
+./setup.sh
+```
+
+5.**Alternatively, skip steps 3 & 4 and run directly:**
+```bash
+bash setup.sh
+```
+---
 ## Notes:
 
 The password is hardcoded as **root**. You can change it in the script if needed.
@@ -26,14 +52,4 @@ Ensure you have Git installed and configured on your system.
 An active internet connection is required to clone the repositories.
 
 
----
-
-## Installation and Execution:
-
-```
-pkg update && pkg upgrade
-pkg install git 
-git clone https://github.com/saicharan-bhuthkuri/My_files_back_up.git
-cd My_files_back_up
-chmod +x setup.sh
-./setup.sh
+`
