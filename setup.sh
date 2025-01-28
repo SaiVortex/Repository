@@ -44,7 +44,7 @@ case $choice in
         git clone https://github.com/saicharan-bhuthkuri/pps-lab.git
         git clone https://github.com/saicharan-bhuthkuri/python-lab.git
         cd ..
-        mv html ..
+        mv lab ..
         ;;
     2)
         printf "${CYAN}Cloning HTML Repositories...${RESET}\n"
@@ -60,7 +60,7 @@ case $choice in
         git clone https://github.com/saicharan-bhuthkuri/login-page.git
         git clone https://github.com/saicharan-bhuthkuri/fruit-sale-site.git
         cd ..
-        mv lab ..
+        mv html ..
         ;;
     3)
         printf "${CYAN}Creating React Directory...${RESET}\n"
