@@ -26,7 +26,7 @@ pkg install git
 2.**Clone the repository:**
 ```bash
 git clone https://github.com/saicharan-bhuthkuri/Installation.git
-cd Installation.git
+cd Installation
 ```
 3.**Grant permission to the file:**
 ```bash
