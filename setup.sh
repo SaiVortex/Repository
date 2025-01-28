@@ -44,6 +44,7 @@ case $choice in
         git clone https://github.com/saicharan-bhuthkuri/pps-lab.git
         git clone https://github.com/saicharan-bhuthkuri/python-lab.git
         cd ..
+        mv html ..
         ;;
     2)
         printf "${CYAN}Cloning HTML Repositories...${RESET}\n"
@@ -59,6 +60,7 @@ case $choice in
         git clone https://github.com/saicharan-bhuthkuri/login-page.git
         git clone https://github.com/saicharan-bhuthkuri/fruit-sale-site.git
         cd ..
+        mv lab ..
         ;;
     3)
         printf "${CYAN}Creating React Directory...${RESET}\n"
@@ -66,6 +68,7 @@ case $choice in
         cd react
         printf "${GREEN}React directory created.${RESET}\n"
         cd ..
+        mv react ..
         ;;
     4)
         printf "${CYAN}Cloning All Repositories...${RESET}\n"
@@ -96,6 +99,11 @@ case $choice in
         cd react
         printf "${GREEN}React directory created.${RESET}\n"
         cd ..
+
+        # Move directories to parent
+        mv html ..
+        mv lab ..
+        mv react ..
         ;;
     *)
         printf "${RED}Invalid choice. Exiting...${RESET}\n"
