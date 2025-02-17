@@ -25,7 +25,7 @@ pkg install git
 
 2.**Clone the repository:**
 ```bash
-git clone https://github.com/SaiVortex/Repository.git
+git clone https://github.com/saicharan-bhuthkuri/Repository.git
 cd Repository
 ```
 3.**Grant permission to the file:**
